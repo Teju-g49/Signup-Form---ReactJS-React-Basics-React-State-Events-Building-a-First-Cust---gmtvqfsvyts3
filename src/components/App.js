@@ -1,5 +1,7 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React, { Component, useState } from "react";
+import MainForm from "./MainForm/";
+//import "./styles/App.css";
+
 const App = () => {
   const [uName, setUname] = useState("");
   const [eMail,setEmail] = useState("");
